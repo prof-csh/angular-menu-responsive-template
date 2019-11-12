@@ -1,0 +1,199 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+html {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+}
+body {
+    /*background: url("assets/images/web7.jpeg") no-repeat center center fixed;*/
+    background-color: #f5f5f5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+}
+.container {
+    margin-bottom: 35px;
+}
+.content {
+    color: #034965;
+    margin: 20px auto;
+    background: rgba(128, 135, 135, 0.5);
+    width: 100%;
+    /*max-width: 960px;*/
+    border-radius: 5px;
+}
+h1,
+h1 a {
+    min-height: 120px;
+    width: 90%;
+    max-width: 700px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 80px;
+}
+p {
+    width: 90%;
+    max-width: 700px;
+    text-align: left;
+    margin: 0 auto;
+}
+app-header header, app-footer footer {
+    min-height: 70px;
+    width: 100%;
+    text-align: center;
+    color:#fff;
+}
+app-header header {
+    /*background-color:#00a4e4;*/
+    border-bottom: 1px solid #d5d2d2;
+}
+app-footer footer{
+    /*background-color:rgb(0,31,78);*/
+    background-color: #282828;
+    line-height: 70px;
+}
+.common-form-cls {
+    margin: 20px;
+}
+.float-left {
+    float:left;
+}
+.tab-content tab {
+    background-color: #fff;
+    padding: 20px;
+}
+.container h1 {
+    color: #00a4e4;
+    font-weight: 600;
+    max-width: 100%;
+    font-size: 23px;
+    min-height: 40px;
+    line-height: 40px;
+    padding: 0;
+    margin-top: 20px;
+}
+form .errorClass {
+    border: 1px solid #da3f3f;
+    background-color: #fbe0e0;
+}
+form .required {
+    color:#FF0000;
+    font-size: 16px;
+}
+form .action-group {
+    text-align: center;
+    padding: 20px 30px;
+    border-top: 1px solid #b1adad;
+}
+form .action-group p {
+    color:#FF0000;
+    text-align: center;
+    margin-top:10px;
+}
+form .custom-daterange .bs-datepicker-head {
+    background-color: rgb(34, 37, 41);
+}
+form .form-control {
+    font-size: 14px;
+}
+form label {
+    font-size: 15px;
+}
+.btn-custom {
+    color: #fff;
+    min-width: 150px;
+    background-color: rgb(1,168,228);
+    border-color: rgb(1,168,228);
+}
+.btn-default {
+    min-width: 150px;
+}
+.theme-blue .bs-datepicker-head {
+    background-color: rgb(1,168,228) !important;
+}
+app-alert .alert {
+    margin: 20px auto;
+}
+.content .search-block {
+    padding-bottom: 20px;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #848484;
+    margin: 20px 20px 10px 20px;
+}
+
+.search-block .btn-custom {
+    width: 55%;
+}
+.action-block {
+    margin:30px 0;
+}
+.action-block .btn-warning {
+    height:90px;
+    margin-bottom:25px;
+}
+.action-block .btn-warning:last-child {
+    margin-bottom: 0px;
+}
+.action-block .btn-warning i {
+    font-size:30px;
+}
+.action-block .btn-warning p {
+    text-align:center !important;
+    font-size: 14px;
+}
+
+/* MEDIA CSS */
+/* Smartphones (landscape) ----------- */
+@media screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media screen and (max-width : 320px) {
+/* Styles */
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-width : 320px) and (max-width : 570px) {
+     /* HEADER */
+     .logo {
+        width: 40%;
+    }
+    .navbar {
+        width: 60%;
+    }
+    .menu li {
+        line-height: 20px;
+    }
+}
+@media screen and (min-width : 320px) and (max-width : 768px) {
+    /* HEADER */
+    .logo {
+        text-align: left;
+    }
+    .menu-block {
+        width: 100%;
+        text-align: right;
+    }
+    .search-block .btn-custom {
+        width: 100% !important;
+        margin-top:10px !important;
+    }
+    .search {
+        margin-bottom: 10px;
+    }
+}
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+    .search {
+        margin:10px 0;
+    }
+}

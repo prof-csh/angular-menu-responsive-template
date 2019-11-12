@@ -1,0 +1,40 @@
+<header class="text-center">
+  <div class="col-lg-12">
+    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 logo">
+      <img src="../../assets/images/aiglogo.png" alt="AIG-LOGO" />
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 navbar">
+      <div class="menu-block">
+        <nav class="menu">
+          <ul class="{{ toggleClass ? '' : 'active' }}">
+            <li class="current-item sub">
+              <a href="#">New Records</a>
+              <ul>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Entity</a></li>
+                <li><a href="#">Person</a></li>
+                <li><a href="#">Documents</a></li>
+              </ul>
+            </li>
+            <li class="current-item sub">
+              <a href="#">Lookup</a>
+              <ul>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Entity</a></li>
+                <li><a href="#">Person</a></li>
+              </ul>
+            </li>
+          </ul>
+          <a class="toggle-nav" (click)="toggleMenu();">&#9776;</a>
+        </nav>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 search">
+      <select class="form-control" #searchType>
+          <option *ngFor="let menu of menuOptions" value="{{ menu }}">{{ menu }}</option>
+        </select>
+      <input type="textbox" class="form-control" placeholder="Search here..." #searchText (change)="searchRecord(searchType.value, searchText.value)" />
+      <i class="fa fa-search"></i>
+    </div>
+  </div>
+</header>

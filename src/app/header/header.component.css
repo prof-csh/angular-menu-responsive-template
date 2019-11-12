@@ -1,0 +1,249 @@
+h4 {
+    line-height: 70px;
+}
+.logo, .search, .navbar {
+    display: inline-block;
+}
+.navbar {
+    text-align: left;
+    vertical-align: middle;
+}
+.navbar select {
+    width:40% !important;
+    float:right;
+    background-color: #00a4e4;
+    color:#fff;
+    border: 1px solid #00a4e4;
+}
+.logo img {
+    margin: 10px 0;
+    background-color: #00a4e4;
+}
+.search input {
+    width: 50%;
+    vertical-align: middle;
+    float: left;
+}
+.search select {
+    width: 40%;
+float: left;
+margin-right: 10px;
+}
+.search i {
+    border: 1px solid #ced4da;
+padding: 10px;
+background-color: #fff;
+color: #00a4e4;
+border-radius: 3px;
+left: -32px;
+margin-left: -57px;
+}
+
+
+/* Navigation Styles */
+	.menu {
+	box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+	border-radius:3px;
+	background:#303030;
+	}
+.menu-block {
+    width: 70%;
+position: relative;
+}
+.menu ul {
+	display:inline-block;
+}
+
+.menu li {
+	float:left;
+	list-style:none;
+	font-size:15px;
+}
+
+.menu li > ul{
+    display : none;
+    margin-top:1px;
+    background-color: #fff;
+    min-width: 164px;
+    text-align: left;
+    z-index: 9999;
+}
+
+.menu li > ul li{
+    display: block;
+}
+
+.menu  li > ul li a {
+    color: rgb(0, 31, 78);
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: #fff;
+}
+.menu li:hover > a, .menu li:hover > a.active {
+    color:#FF0000 !important;
+}
+.menu li:hover > ul{
+    position:absolute;
+    display : block;
+}
+
+.menu ul > li.sub{
+    background: url("../../assets/icons/down_arrow_icon1.png") right center no-repeat;
+}
+
+.menu li:last-child {
+	margin-right:0px;
+}
+
+.menu a {
+	text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+	color:#00a4e4;
+    transition:color linear 0.15s;
+    cursor: pointer;
+}
+
+.menu a:hover, .menu .current-item a {
+	text-decoration:none;
+	color:#66a992;
+}
+
+
+	.menu {
+		/*position:relative;*/
+        display:inline-block;
+        line-height: 3px !important; 
+	}
+
+	.menu ul.active {
+		display:none;
+	}
+
+	.menu ul {
+		width:100%;
+		position:absolute;
+		top:88%;
+		left:0px;
+		padding:10px 18px;
+		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+		border-radius:3px;
+        background:#303030;
+        z-index: 9999;
+	}
+
+	/*.menu ul:after {
+		width:0px;
+		height:0px;
+		position:absolute;
+		top:0%;
+		left:22px;
+		content:'';
+		transform:translate(0%, -100%);
+		border-left:7px solid transparent;
+		border-right:7px solid transparent;
+		border-bottom:7px solid #303030;
+	}*/
+
+	.menu li {
+		float:none;
+        display:block;
+        text-align: left;
+        line-height: 35px;
+        font-size: 14px;
+	}
+
+	.menu a {
+		display:block;
+	}
+
+	.toggle-nav {
+		padding:20px;
+		float:left;
+		display:inline-block;
+		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+		border-radius:3px;
+		background:#303030;
+		text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+		color:#777;
+		font-size:20px;
+		transition:color linear 0.15s;
+	}
+
+	.toggle-nav:hover, .toggle-nav.active {
+		text-decoration:none;
+		color:#66a992;
+	}
+
+
+/* NAV BAR STYLE STARTS */
+/*nav {
+    color: #fff;
+    display: block;
+    margin: -15px 0;
+    overflow: hidden;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    margin: 0;
+    display: inline-block;
+    list-style-type: none;
+    transition: all 0.2s;
+}
+
+nav > ul > li > a {
+    color: rgb(1,168,228);
+    display: block;
+    line-height: 2em;
+    padding: 10px 25px;
+    text-decoration: none;
+
+}
+
+nav > ul > li > a.active {
+    color: #fff;
+}
+
+nav li > ul{
+    display : none;
+    margin-top:1px;
+    background-color: #fff;
+    min-width: 164px;
+    text-align: left;
+    z-index: 9999;
+}
+
+nav li > ul li{
+    display: block;
+}
+
+nav  li > ul li a {
+    color: rgb(0, 31, 78);
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #fff;
+}
+nav li:hover > a, nav li:hover > a.active {
+    color:#FF0000 !important;
+}
+nav li:hover > ul{
+    position:absolute;
+    display : block;
+}
+
+nav ul > li.sub{
+    background: url("../../assets/icons/down_arrow_icon1.png") right center no-repeat;
+}*/
+/* NAV BAR STYLE ENDS */

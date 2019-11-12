@@ -1,0 +1,89 @@
+<header class="dark">
+	<!-- STYLE 1 -->
+	<!--<nav class="menu">
+		<ul class="{{ toggleClass ? '' : 'active' }}">
+			<li class="current-item"><a href="#">Home</a></li>
+			<li><a href="#">My Work</a></li>
+			<li><a href="#">About Me</a></li>
+			<li><a href="#">Get in Touch</a></li>
+			<li><a href="#">Blog</a></li>
+		</ul>
+
+		<a class="toggle-nav" href="#" (click)="!this.toggleClass;">&#9776;</a>
+	</nav>-->
+
+	<!-- STYLE 2 -->
+	<!--<nav role="navigation">
+		<a href="" class="ic menu">
+			<span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </a>
+    <a href="" class="ic close"></a>
+    <ul class="main-nav">
+      <li class="top-level-link">
+        <a><span>Home</span></a>      
+      </li> 
+      
+      <li class="top-level-link">
+        <a class="mega-menu"><span>Products</span></a>
+        <div class="sub-menu-block">
+          <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-4">
+              <h2 class="sub-menu-head">Clothing</h2>
+              <ul class="sub-menu-lists">
+                <li><a>Mens</a></li>
+                <li><a>Womens</a></li>
+                <li><a>Kids</a></li>
+                <li><a>New Born</a></li>
+                <li><a>View All</a></li>
+              </ul>           
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4">
+              <h2 class="sub-menu-head">Handbags</h2>
+              <ul class="sub-menu-lists">
+                <li><a>Wallets</a></li>
+                <li><a>Athletic bag</a></li>
+                <li><a>Backpack</a></li>
+                <li><a>Bucket Bag</a></li>
+                <li><a>View All</a></li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+      </li>
+    </ul> 
+  </nav>-->
+
+	<!-- STYLE 3 -->
+	<nav>
+		<ul>
+			<li class="sub">
+				<a routerLink="policy" routerLinkActive="active">NEW RECORD</a>
+				<ul>
+					<li class="sub"><a routerLink="policy">Policy</a>
+						<ul>
+							<li><a>Sample</a></li>
+						</ul>
+					</li>
+					<li><a routerLink="entity">Entity</a></li>
+					<li><a routerLink="person">Person</a></li>
+					<li><a routerLink="document">Document</a></li>
+				</ul>
+			</li>
+			<li class="sub">
+				<a routerLink="search" routerLinkActive="active">LOOKUP FOR</a>
+				<ul>
+					<li><a routerLink="policy">Policy</a></li>
+					<li><a routerLink="entity">Entity</a></li>
+					<li><a routerLink="person">Person</a></li>
+				</ul>
+			</li>
+			<li>
+				<a routerLink="report" routerLinkActive="active">REPORTING</a>
+			</li>
+		</ul>
+	</nav>
+
+</header>
